@@ -1,17 +1,17 @@
 {
-    "name": "mdmsoft/yii2-admin",
+    "name": "lnsoft/yii2-admin",
     "description": "RBAC Auth manager for Yii2 ",
     "keywords": ["yii", "admin", "auth", "rbac"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/mdmsoft/yii2-admin/issues",
-        "source": "https://github.com/mdmsoft/yii2-admin"
+        "issues": "https://github.com/linuxning/yii2-admin/issues",
+        "source": "https://github.com/linuxning/yii2-admin"
     },
     "authors": [
         {
-            "name": "Misbahul Munir",
-            "email": "misbahuldmunir@gmail.com"
+            "name": "Mr NingLiu",
+            "email": "citicise@gmail.com"
         }
     ],
     "minimum-stability": "dev",

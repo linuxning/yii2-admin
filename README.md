@@ -1,7 +1,7 @@
 RBAC Manager for Yii 2
 ======================
 GUI manager for RABC (Role Base Access Control) Yii2. Easy to manage authorization of user :smile:.
-
+fork&&Create for personal use
 Documentation
 -------------
 > **Important: If you install version 3.x, please see [this readme](https://github.com/mdmsoft/yii2-admin/blob/3.master/README.md#upgrade-from-2x).**
