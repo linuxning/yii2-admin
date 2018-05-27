@@ -9,14 +9,14 @@ use mdm\admin\components\RouteRule;
 use Yii;
 use yii\caching\TagDependency;
 use yii\helpers\VarDumper;
-
+use yii\base\BaseObject;
 /**
  * Description of Route
  *
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0
  */
-class Route extends \mdm\admin\BaseObject
+class Route extends BaseObject
 {
     const CACHE_TAG = 'mdm.admin.route';
 

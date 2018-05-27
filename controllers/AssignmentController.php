@@ -43,7 +43,7 @@ class AssignmentController extends Controller
     {
         return [
             'verbs' => [
-                'class' => VerbFilter::className(),
+                'class' => VerbFilter::class,
                 'actions' => [
                     'assign' => ['post'],
                     'assign' => ['post'],

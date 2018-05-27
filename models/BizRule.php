@@ -76,7 +76,7 @@ class BizRule extends \yii\base\Model
             $this->addError('className', $message);
             return;
         }
-        if (!is_subclass_of($this->className, Rule::className())) {
+        if (!is_subclass_of($this->className, Rule::class)) {
             $message = Yii::t('rbac-admin', "'{class}' must extend from 'yii\rbac\Rule' or its child class", [
                     'class' => $this->className]);
             $this->addError('className', $message);

@@ -23,7 +23,7 @@ class TestCase extends \yii\codeception\TestCase
     public function fixtures()
     {
         return[
-            AdminFixture::className(),
+            AdminFixture::class,
         ];
     }
 }

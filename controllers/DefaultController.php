@@ -3,18 +3,20 @@
 namespace mdm\admin\controllers;
 
 use Yii;
-
+use \yii\web\Controller;
 /**
  * DefaultController
  *
  * @author Misbahul D Munir <misbahuldmunir@gmail.com>
  * @since 1.0
  */
-class DefaultController extends \yii\web\Controller
+class DefaultController extends Controller
 {
 
     /**
-     * Action index
+     * action index
+     * @param string $page
+     * @return mixed
      */
     public function actionIndex($page = 'README.md')
     {

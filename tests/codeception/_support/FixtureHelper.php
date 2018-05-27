@@ -53,7 +53,7 @@ class FixtureHelper extends Module
     public function globalFixtures()
     {
         return [
-            AdminFixture::className(),
+            AdminFixture::class,
         ];
     }
 

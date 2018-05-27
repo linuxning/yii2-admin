@@ -46,7 +46,7 @@ class AccessControl extends \yii\base\ActionFilter
     public function getUser()
     {
         if (!$this->_user instanceof User) {
-            $this->_user = Instance::ensure($this->_user, User::className());
+            $this->_user = Instance::ensure($this->_user, User::class);
         }
         return $this->_user;
     }
